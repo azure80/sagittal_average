@@ -10,5 +10,5 @@ dependencies = ["numpy",
 
 [tool.hatch.build.targets.wheel]
 packages = [
-  "src/sagittal_brain",
+  "src/sagittal_average",
 ]
