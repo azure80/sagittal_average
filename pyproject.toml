@@ -9,7 +9,7 @@ dependencies = ["numpy",
 ]
 
 [project.scripts]
-greet = "sagittal_average.command:process"
+sagittal_average_run = "sagittal_average.command:process"
 
 [tool.hatch.build.targets.wheel]
 packages = [
