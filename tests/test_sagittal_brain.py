@@ -5,7 +5,7 @@ import csv
 
 def test_code():
     input = [[1,1,1], [0, 0, 0], [0, 0, 0]]
-    result = np.mean(input, axis=1) #求每一行的均值
+    result = np.mean(input, axis=1)
     expect = np.array([1, 0, 0])
     assert np.all(result==expect)
     
